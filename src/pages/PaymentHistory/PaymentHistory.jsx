@@ -1,5 +1,5 @@
 import "./PaymentHistory.css"
-import RobotoInvestments from "../../images/RobotoInvestments.png";
+import RobotoInvestments from "../../images/robotoInvestments.png";
 
 const PaymentHistory = () => {
     const paymentData = [

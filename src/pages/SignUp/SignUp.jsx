@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./SignUp.css";
-import RobotoInvestments from "../../images/RobotoInvestments.png";
+import RobotoInvestments from "../../images/robotoInvestments.png";
 import { Link } from "react-router-dom";
 
 const SignUp = () => {

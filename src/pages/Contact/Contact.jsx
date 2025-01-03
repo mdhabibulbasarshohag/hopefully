@@ -1,5 +1,5 @@
 import "./Contact.css"
-import RobotoInvestments from "../../images/RobotoInvestments.png";
+import RobotoInvestments from "../../images/robotoInvestments.png";
 
 const Contact = () => {
     return (
