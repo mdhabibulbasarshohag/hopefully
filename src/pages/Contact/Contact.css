@@ -1,0 +1,63 @@
+
+
+/* contact  start */
+
+.sh--contact--row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  gap: 24px;
+}
+
+.sh--contact--col {
+  padding: 48px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.02);
+  box-shadow: 0px 0px 6px 0px rgba(46, 215, 206, 0.5);
+}
+
+.sh--contact--box {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+}
+
+.sh--contact--box--svg {
+  width: 58px;
+  height: 58px;
+
+  border: #83258d 1px solid;
+  border-radius: 50%;
+  padding: 8px;
+}
+
+.sh--contact--box--title {
+  margin-left: 24px;
+}
+
+.sh--contact--box--title h4 {
+  color: #fff;
+  font-family: "Plus Jakarta Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.sh--contact--Locality {
+  margin-top: 64px;
+}
+
+.sh--contact--Locality a {
+  color: var(--Primary-Green, #18caae);
+  text-align: center;
+  font-family: "Plus Jakarta Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  text-transform: capitalize;
+}
+
+/* contact  end */

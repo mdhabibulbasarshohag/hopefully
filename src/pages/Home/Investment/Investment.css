@@ -1,0 +1,78 @@
+/* Investment Start Hare */
+.nr--investment--wrapper {
+  padding: 100px;
+  position: relative;
+}
+
+.nr--investment--main {
+  display: flex;
+  gap: 75px;
+  align-items: center;
+}
+
+.nr--left--investment--image {
+  width: 530px;
+  height: 490px;
+}
+
+.nr--left--investment--image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.nr--investment--content--wrapper {
+  min-width: 1086px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.nr--profitDay--wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nr--profit--item--wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.nr--profit--item--wrapper ul {
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.nr--profit--item--wrapper ul li {
+  color: #dfe3e8;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  text-transform: capitalize;
+  list-style-type: disc;
+}
+
+.nr--investment--logo {
+  max-width: 280px;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 16px;
+  column-gap: 8px;
+}
+
+.nr--investment--item {
+  width: 40px;
+  height: 40px;
+}
+
+.nr--investment--item svg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Investment end Hare */

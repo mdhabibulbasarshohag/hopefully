@@ -1,0 +1,25 @@
+.sm-history-items {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.sm-history-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    background: rgba(24, 202, 174, 0.03);
+    padding: 30px 48px;
+}
+
+.sm-history-item-left {
+    width: 60%;
+}
+
+.sm-history-item-right {
+    width: 30%;
+    display: flex;
+    justify-content: end;
+}

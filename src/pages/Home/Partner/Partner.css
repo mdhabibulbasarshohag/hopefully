@@ -1,0 +1,116 @@
+/* Partner Bonus Strat Hare */
+.nr--partner--wrapper {
+  padding: 60px 0;
+}
+
+.nr--partner--header {
+  max-width: 795px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.nr--partner--header p span {
+  color: #18caae;
+}
+/* Partner Bonus End Hare */
+.nr--partner--body {
+  padding: 100px 0;
+  height: 400px;
+}
+
+.nr--partner--content {
+  display: flex;
+  position: relative;
+}
+
+.nr--partner--item {
+  border-radius: 360px;
+  padding: 42px 140px;
+  border: 3px solid rgba(255, 255, 255, 0.2);
+  position: absolute;
+}
+
+.nr--partner--body--main {
+}
+
+.nr--partner--item--header h5 {
+  color: var(--Blue-Grey-300, #dfe3e8);
+  text-align: center;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.nr--partner--item--content h3 {
+  color: var(--Blue-Grey-300, #dfe3e8);
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.nr--partner--item--content p {
+  color: #48c78e; /* Added green color for the commission text */
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+
+#nr--partner--item--1 {
+  transform: rotate(-14.532deg);
+  top: -38px;
+  left: 11%;
+}
+
+#nr--partner--body--main--1 {
+  transform: rotate(14.532deg);
+}
+
+#nr--partner--item--2 {
+  transform: rotate(127.989deg);
+  top: -229px;
+  left: 35%;
+}
+
+#nr--partner--body--main--2 {
+  transform: rotate(-127.989deg);
+}
+
+#nr--partner--item--3 {
+  transform: rotate(0);
+  top: 157px;
+  left: 28%;
+}
+#nr--partner--body--main--3 {
+  transform: rotate(0);
+}
+#nr--partner--item--4 {
+  transform: rotate(30deg);
+  top: 27px;
+  left: 50%;
+}
+
+#nr--partner--body--main--4 {
+  transform: rotate(-30deg);
+}
+#nr--partner--item--5 {
+  transform: rotate(-30deg);
+  top: -291px;
+  left: 59%;
+}
+
+#nr--partner--body--main--5 {
+  transform: rotate(30deg);
+}
+#nr--partner--item--6 {
+  top: 19px;
+  left: 70%;
+  transform: rotate(69.479deg);
+}
+
+#nr--partner--body--main--6 {
+  transform: rotate(-69.479deg);
+}

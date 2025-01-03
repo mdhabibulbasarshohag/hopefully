@@ -1,0 +1,93 @@
+.sl-dashboard-section {
+  background-image: "../../../images/sh-get-started-bg.png";
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  padding-top: 200px;
+}
+
+.sl-dashboard-main-container {
+  padding-bottom: 90px;
+}
+
+.sl-dashboard-main-container .nav-link {
+  color: #f4f6f8;
+  font-family: var(--primary-font);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.02);
+  box-shadow: 0px 0px 6px 0px rgba(46, 215, 206, 0.4);
+  margin-bottom: 20px;
+  padding: 18px 48px;
+  border: 1px solid transparent;
+  display: flex;
+  gap: 12px;
+  min-width: 320px;
+}
+
+.sl-dashboard-main-container .nav-link.active {
+  border: 1px solid var(--gradient-light, rgba(255, 255, 255, 0.47));
+  background: linear-gradient(225deg, #18caae 14.89%, #83258d 85.85%);
+  box-shadow: 0px 0px 12px 4px rgba(46, 215, 206, 0.5);
+}
+
+.sl-dashboard-button-wrap {
+  margin-right: 50px;
+}
+
+.sl-dashboard-content-wrap {
+  color: #fff;
+  padding: 48px;
+  border-radius: 12px;
+  border: 1.4px solid var(--gradient-light, rgba(255, 255, 255, 0.47));
+  background: rgba(255, 255, 255, 0.02);
+  box-shadow: 0px 0px 8px 4px rgba(46, 215, 206, 0.24);
+  width: 100%;
+}
+
+.sl-dashboard-inner-single-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 8px;
+  background: rgba(24, 202, 174, 0.03);
+  padding: 24px;
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  cursor: pointer;
+  height: 100%;
+}
+
+.sl-dashboard-inner-single-item:hover {
+  background: rgba(32, 255, 222, 0.03);
+  transform: scale(1.02);
+  -webkit-transform: scale(1.02);
+  -moz-transform: scale(1.02);
+  -ms-transform: scale(1.02);
+  -o-transform: scale(1.02);
+  box-shadow: 0px 25px 20px -20px rgba(0, 0, 0, 0.45);
+  box-shadow: 0px 0px 1px 1px rgba(46, 215, 206, 0.24);
+}
+
+.sl-dashboard-inner-single-item p {
+  margin-top: 4px;
+  margin-bottom: 20px;
+}
+
+.sl-dashboard-inner-single-item button {
+  border-radius: 10px;
+  background: #83258d;
+  padding: 12px 40px;
+  border: 1px solid transparent;
+  color: #fff;
+  pointer-events: none;
+}

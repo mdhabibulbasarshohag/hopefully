@@ -1,0 +1,32 @@
+.sh--application--link--section {
+  padding: 100px 0;
+}
+
+.sh--application--link--header {
+  text-align: center;
+}
+
+.sh--application--link--coming {
+  margin: 48px 0 24px;
+}
+.sh--application--link--coming p {
+  color: var(--Primary-Purpel, #83258d);
+  text-align: center;
+  font-family: "Plus Jakarta Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 166.667% */
+  text-transform: capitalize;
+}
+
+.sh--application--link--download {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.sh--application--link--download a img {
+  width: 362px;
+  height: 108px;
+}
