@@ -4,12 +4,12 @@ import CommonLayout from "../layouts/CommonLayout";
 import Contact from "../pages/Contact/Contact";
 import PaymentHistory from "../pages/PaymentHistory/PaymentHistory";
 import Dashboard from "../pages/Dashboard/Dashboard";
-import SignUp from './../pages/SignUp/SignUp';
+import SignUp from '../pages/SignUp/SignUp';
 import LogIn from "../pages/LogIn/LogIn";
 import DashboardMain from "../pages/Dashboard/DashboardMain/DashboardMain";
 import AddFounds from "../pages/Dashboard/AddFounds/AddFounds";
 import OpenDeposit from "../pages/Dashboard/OpenDeposit/OpenDeposit";
-import Deposits from "../pages/Dashboard/Deposits/deposits";
+// import Deposits from "../pages/Dashboard/Deposits/Deposits";
 import Withdraw from "../pages/Dashboard/Withdraw/Withdraw";
 import Wallet from "../pages/Dashboard/Wallet/Wallet";
 import History from "../pages/Dashboard/History/History";
@@ -20,6 +20,7 @@ import ChangePassword from "../pages/Dashboard/ChangePassword/ChangePassword";
 import AffiiliateLink from "../pages/Dashboard/AffiiliateLink/AffiiliateLink";
 import AllPages from "../pages/AllPages/AllPages";
 import HistoryDetails from "../pages/Dashboard/History/HistoryDetails/HistoryDetails";
+import Deposits from '../pages/Dashboard/Deposits/Deposits';
 
 
 
